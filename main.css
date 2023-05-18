@@ -31,10 +31,24 @@ body {
   padding: 8px 16px;
 }
 
-.main-nav__item {
+.main-header > div {
   display: inline-block;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 49px);
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
